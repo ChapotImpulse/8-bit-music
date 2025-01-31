@@ -258,7 +258,7 @@ int main()
 	// руссификация ввода/вывода
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	setlocale(LC_CTYPE, "rus");
+	setlocale(0, "rus");
 
 	Menu();
 	int _actions; // действие
