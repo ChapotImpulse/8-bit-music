@@ -281,7 +281,7 @@ int main()
 			if (_actions == 1) {
 				DataEntry(d, _size);
 			}
-			else {
+			else if (_actions == 2) {
 				DataReading(d, _size, "input.txt");
 			}
 
